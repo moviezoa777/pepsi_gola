@@ -62,3 +62,19 @@ a:hover {
     width: 800px;
     height: 500px;
 }
+
+.movie-title{
+    font-size:22px;
+    color:#555555;
+
+}
+
+.text-upper{
+
+}
+
+.movie-poster{
+    width:600px;
+    height: 300px;
+    font-size: 0px;
+}
