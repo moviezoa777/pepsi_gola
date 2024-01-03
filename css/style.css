@@ -1,59 +1,64 @@
 @charset "utf-8";
+
 /* ============스타일 공통속성=============*/
-.mx-auto{
-    margin:0 auto;    
+.mx-auto {
+    margin: 0 auto;
 }
 
-.mx-10{
-    margin-left:10px;
+.mx-10 {
+    margin-left: 10px;
     margin-right: 10px;
-} 
+}
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
-.my-50{
+
+.my-50 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 
 
-
 /*===========스타일 초기화==============*/
 
-*{ margin : 0 auto;}
+* {
+    margin: 0 auto;
+}
 
-.logo{ 
-    width:100px;
+.logo {
+    width: 100px;
     height: 110px;
     display: block;
 }
 
 
-
-
-
-.nav {  
+.nav {
     height: 60px;
     line-height: 60px;
 }
 
-.bg-nav{
+.bg-nav {
     background-color: #005891;
 }
 
-a:link{
+a:link {
     color: white;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #fcff00;
     text-decoration: none;
 }
 
-.cf{
+.cf {
     width: 800px;
     height: 500px;
 }
