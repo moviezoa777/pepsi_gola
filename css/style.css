@@ -5,6 +5,11 @@
     margin: 0 auto;
 }
 
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .mx-10 {
     margin-left: 10px;
     margin-right: 10px;
@@ -14,10 +19,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
 .my-10 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .my-30 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -30,7 +37,9 @@
 }
 
 
-
+.text-center {
+    text-align: center;
+}
 
 
 /*===========스타일 초기화==============*/
@@ -68,23 +77,29 @@ a:hover {
     height: 500px;
 }
 
-.movie-title{
-    font-size:22px;
-    color:#555555;
+.movie-title {
+    font-size: 22px;
+    color: #555555;
 
 }
 
-.text-center {
-    text-align: center;
-}
 
-.text-upper{
+
+.text-upper {
     text-transform: uppercase;
 
 }
 
-.movie-poster{
-    width:600px;
+.movie-poster {
+    width: 600px;
     height: 300px;
     font-size: 0px;
+}
+
+.sns {
+    font-size: 0px;
+}
+
+.bg-sns {
+    background-color: #f3f3f3;
 }
